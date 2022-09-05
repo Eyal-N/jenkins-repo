@@ -4,8 +4,8 @@ pipeline {
        choice(
            name: 'Language' ,
            choices: ['All', 'Python', 'C', 'Bash']
-        )
-   }
+       	     )
+   	}
 //      describtion: 'scripts in diffrent languages'
 
 
