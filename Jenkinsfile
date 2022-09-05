@@ -62,8 +62,8 @@ pipeline {
                  sh  '/home/jenkins-slave/Desktop/scripts/hello'
                     echo "C script was executed successfully"
                 }
-            } 
-	}
+       } 
+}
 //              description: 'just a simple hello world in C'
 	
 stage('Saving Results') {
@@ -84,7 +84,7 @@ stage('Saving Results') {
             '''
          	}
 	}
-   }
+}
    
    post {   
 		always {
